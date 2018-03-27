@@ -1,5 +1,7 @@
 package API;
 
+import okhttp3.*;
+
 /**
  * GoodReads API
  * key: RIWQy80W6TBDYlMptXJyQ
@@ -7,9 +9,20 @@ package API;
  */
 
 public class BookAPI {
-<<<<<<< HEAD:src/API/BookAPI.java
-   
-=======
-    
->>>>>>> c9e36d20319a2519d73c313b05f478b9fe90aa77:src/main/java/API/BookAPI.java
+    public void getBook()
+    {
+        try {
+            OkHttpClient client = new OkHttpClient();
+
+            Request request = new Request.Builder()
+                    .url("https://www.goodreads.com/search.xml?key= RIWQy80W6TBDYlMptXJyQ").get()
+                    .build();
+
+            Response response = client.newCall(request).execute();
+            System.out.println(response.body().string());
+        }catch(Exception ex) {
+
+        }
+    }
+
 }
