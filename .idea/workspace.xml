@@ -56,6 +56,11 @@
               <item name="BooksAndMovies" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatterns_BooksAndMovies" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BooksAndMovies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns_BooksAndMovies" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -175,12 +180,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522138237612</updated>
-      <workItem from="1522138240990" duration="12000" />
+      <workItem from="1522138240990" duration="166000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12000" />
+    <option name="totallyTimeSpent" value="166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
