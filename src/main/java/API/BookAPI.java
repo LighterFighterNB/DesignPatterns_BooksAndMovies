@@ -7,5 +7,9 @@ package API;
  */
 
 public class BookAPI {
+<<<<<<< HEAD:src/API/BookAPI.java
    
+=======
+    
+>>>>>>> c9e36d20319a2519d73c313b05f478b9fe90aa77:src/main/java/API/BookAPI.java
 }
