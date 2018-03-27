@@ -7,27 +7,17 @@
     <groupId>groupId</groupId>
     <artifactId>DesignPatterns_BooksAndMovies</artifactId>
     <version>1.0-SNAPSHOT</version>
-
-    <repositories>
-        <repository>
-            <id>maven-restlet</id>
-            <name>Restlet repository</name>
-            <url>https://maven.restlet.com</url>
-        </repository>
-    </repositories>
-    <properties>
-        <restlet-version>2.3.12</restlet-version>
-    </properties>
+    
     <dependencies>
         <dependency>
-            <groupId>org.restlet.jse</groupId>
-            <artifactId>org.restlet</artifactId>
-            <version>${restlet-version}</version>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>3.10.0</version>
         </dependency>
         <dependency>
-            <groupId>org.restlet.jse</groupId>
-            <artifactId>org.restlet.ext.jackson</artifactId>
-            <version>${restlet-version}</version>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20180130</version>
         </dependency>
     </dependencies>
 
